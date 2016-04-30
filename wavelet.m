@@ -16,7 +16,7 @@ mother = 'Morlet';
 [wave,period,scale,coi] = wavelet(sst,dt,pad,dj,s0,j1,mother);
 power = (abs(wave)).^2 ;  %计算小波系数的模的平方
 modulus=abs(wave);  %计算小波系数的模
-variance1=sum(power')/n;%计算小波方差
+variance1=sum(power')/n;%计算小波方差 power`共轭转置
 %画小波系数实部等值线图
 subplot(3,1,1)
 levels = [0,0.5,1.0,1.5,2.0,2.5];
