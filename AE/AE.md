@@ -283,8 +283,3 @@ for i in range(n):
     ax.get_yaxis().set_visible(False)
 plt.show()
 ```
----------------------
-作者：_yuki_ 
-来源：CSDN 
-原文：https://blog.csdn.net/qq_19707521/article/details/78740986 
-版权声明：本文为博主原创文章，转载请附上博文链接！
